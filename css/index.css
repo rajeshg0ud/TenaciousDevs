@@ -592,13 +592,12 @@ input:focus,textarea:focus{
 }
 
   /*'Acme', 'Oswald',  Impact,'Rubik',  sans-serif;*/
-.profile-text{
-  font-size: 23.3px; 
+.profile-h2{
+  font-size: 33px; 
   font-family:'Rubik', 'Acme', 'Oswald', Impact,'Rubik','Acme', sans-serif;
   margin-left: -14px; 
   color: rgb(36, 33, 33);
-  font-weight:bolder;
-  -webkit-text-stroke: 0.9px rgb(33, 30, 30);
+  font-weight:bolder; 
   text-shadow: none;
 }
  
@@ -613,7 +612,7 @@ input:focus,textarea:focus{
 }
 .display-content p{
   margin-top: 1px;
-  font-size: 12.3px; 
+  font-size: 10.7px; 
   margin-left: -18px;
   color: rgb(94, 88, 88);
 }
