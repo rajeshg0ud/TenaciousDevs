@@ -276,9 +276,7 @@ nav{
   padding-left: 35px;
   padding-top: 1.5rem; /* Adjust padding according to your design */
   padding-bottom: 1.5rem; /* Adjust padding according to your design */
-  padding-top: 1.25rem;
-  background-color: white;
-  box-shadow: 0 4px 9px 4px rgba(0, 0, 0, 0.1); 
+  padding-top: 1.25rem; 
 }
 .project-heading{
   color: rgb(37, 37, 37);
