@@ -613,7 +613,7 @@ input:focus,textarea:focus{
 .display-content p{
   margin-top: 1px;
   font-size: 10px; 
-  margin-left: 6px; 
+  margin-left: 2px; 
   max-width: 500px;
   color: rgb(94, 88, 88);
 }
