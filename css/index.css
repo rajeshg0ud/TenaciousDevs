@@ -278,7 +278,7 @@ nav{
   padding-bottom: 1.5rem; /* Adjust padding according to your design */
   padding-top: 1.25rem; 
 }
-.project-heading{
+.project-heading, .service-heading{
   color: rgb(37, 37, 37);
   font-family: 'Rubik', sans-serif;
   font-size: x-large;
@@ -460,7 +460,7 @@ iframe{
   justify-content: space-between;
 }
 .contact-row{
-  display: flex; 
+  display: flex;  
 }
 .contact-row .col{
   flex:0 0 55%;
@@ -612,8 +612,9 @@ input:focus,textarea:focus{
 }
 .display-content p{
   margin-top: 1px;
-  font-size: 10.7px; 
-  margin-left: -18px;
+  font-size: 10px; 
+  margin-left: 6px; 
+  max-width: 500px;
   color: rgb(94, 88, 88);
 }
 .profile-btn{
@@ -699,7 +700,7 @@ skills*/
 }
 /*project*/
 
-.project-heading{
+.project-heading, .service-heading{
   font-size: large;
   font-weight: 700;
   line-height: 1.2;
@@ -785,7 +786,7 @@ border-radius: 10px;
 }
 .contact-row{
   display: flex; 
-  flex-direction: column-reverse;
+  flex-direction: column;
 }
 .contact-row .col{
   flex:0 0 95%;
@@ -968,15 +969,7 @@ font-size: 14px;
    margin: 20px auto;
   max-width: 1200px;
 }
-
-.service-heading {
-  font-size: 36px;
-  color: #2c2c2c;
-  text-align: center;
-  margin-bottom: 30px;
-  font-family: 'Rubik', sans-serif;
-}
-
+ 
 .service-content {
   display: flex;
   flex-wrap: wrap;
@@ -997,15 +990,8 @@ font-size: 14px;
   box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
 }
 
-.service-item h4 {
-  font-size: 24px;
-  color: #333;
-  margin-bottom: 10px;
-  font-family: 'Rubik', sans-serif;
-}
-
 .service-item p {
-  font-size: 16px;
+  font-size: 14px;
   color: #555;
 }
 
@@ -1013,6 +999,10 @@ font-size: 14px;
 @media (max-width: 768px) {
   .service-item {
       flex: 1 1 48%;
+  }
+
+  .service-container { 
+    margin-left: 15px;
   }
 }
 
