@@ -115,7 +115,7 @@ nav{
   font-family: Impact, 'Rubik', sans-serif;
   word-spacing: 5.3px;
   letter-spacing: 1px;
-  background: linear-gradient(90.17deg, #1978c6 5.06%, #0859ab 96.04%);
+  background: linear-gradient(40.17deg, #1978c6 5.06%, #0859ab 96.04%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
@@ -134,7 +134,9 @@ nav{
   margin-top: -4px;
   color: #3a3b3c;
   font-weight: 500;
-  font-size: 18px;  
+  font-size: 16px;  
+  text-align: center;
+  max-width: 620px;
 }
 
 .profile-btn{
@@ -961,3 +963,63 @@ font-size: 14px;
 
 }
 
+
+/* Services Section Styles */
+.service-container { 
+  padding: 40px 20px;
+   margin: 20px auto;
+  max-width: 1200px;
+}
+
+.service-heading {
+  font-size: 36px;
+  color: #2c2c2c;
+  text-align: center;
+  margin-bottom: 30px;
+  font-family: 'Rubik', sans-serif;
+}
+
+.service-content {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.service-item {
+  flex: 1 1 22%;
+  background-color: #f9f9f9;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 9px 4px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.service-item:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+.service-item h4 {
+  font-size: 24px;
+  color: #333;
+  margin-bottom: 10px;
+  font-family: 'Rubik', sans-serif;
+}
+
+.service-item p {
+  font-size: 16px;
+  color: #555;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .service-item {
+      flex: 1 1 48%;
+  }
+}
+
+@media (max-width: 480px) {
+  .service-item {
+      flex: 1 1 100%;
+  }
+}
